@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("CometUnifiedShareSheetEmbedVideoContentQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="7029998097060700"}),null);
+__d("CometUnifiedShareSheetEmbedVideoContentQuery$Parameters",["CometUnifiedShareSheetEmbedVideoContentQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometUnifiedShareSheetEmbedVideoContentQuery_facebookRelayOperation"),metadata:{},name:"CometUnifiedShareSheetEmbedVideoContentQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometEmbedVideoDialogV2.entrypoint",["CometUnifiedShareSheetEmbedVideoContentQuery$Parameters","JSResourceForInteraction"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){a=a.videoID;return{extraProps:{videoID:a},queries:{embedVideoQueryReference:{parameters:b("CometUnifiedShareSheetEmbedVideoContentQuery$Parameters"),variables:{videoID:a}}}}},root:c("JSResourceForInteraction")("CometEmbedVideoDialogRootV2.react").__setRef("CometEmbedVideoDialogV2.entrypoint")};g["default"]=a}),98);
